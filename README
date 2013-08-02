@@ -1,0 +1,4 @@
+Run a program locked into memory.
+
+Usage:
+    mlockall <program> <program argument>...

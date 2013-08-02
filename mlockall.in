@@ -1,0 +1,4 @@
+#!/bin/sh
+
+export LD_PRELOAD="@LIBDIR@/libmlockall.so:$LD_PREPLOAD"
+exec "$@"
